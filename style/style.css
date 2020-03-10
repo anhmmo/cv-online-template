@@ -1,0 +1,99 @@
+.resumefooter {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.resumefooter a:hover i, .resumefooter a:hover span{
+    color: #54B689;
+ }
+
+ .resumefooter a:hover{
+    text-decoration: none;
+ }
+
+ .resumefooter li{
+    position: relative;
+    margin: 30px;
+ }
+
+ .resumefooter i{
+    position: absolute;
+    top: 1px;
+    left: -30px;
+    font-size: 25px;
+    color: #4f4f4f;
+ }
+
+ .resumefooter span{
+    font-size: 15px;
+    color: #4f4f4f;
+ }
+
+ .resume-link {
+    font-size: 17px;
+ }
+
+ .svg-inline--fa {
+    font-size: 20px;
+ }
+
+ .resume-name {
+   font-size: 50px !important;
+}
+
+
+ .resume-tagline {
+    font-size: 25px !important;
+ }
+
+ .resume-intro {
+   font-size: 1.05rem !important;
+}
+
+.resume-profile-image {
+   max-width: 140px !important;
+}
+
+.resume-section-heading {
+   font-size: 1.4rem !important;
+   letter-spacing: 0.1rem !important;
+}
+
+.resume-main .item-title, .resume-aside .item-title {
+   font-size: 1.2rem !important;
+}
+
+.resume-main .item-content, .resume-aside .item, .resume-education-list, .resume-awards-list, .resume-lang-list, .resume-interests-list {
+   font-size: 1rem !important;
+}
+
+.col-xl-9 {
+   -webkit-box-flex: 0;
+   flex: 0 0 68% !important;
+   max-width: 78% !important;
+}
+
+.col-xl-3 {
+   -webkit-box-flex: 0;
+   flex: 0 0 32% !important;
+   max-width: 32% !important;
+}
+
+
+.resume-main .item-meta {
+   font-size: 0.9rem !important;
+}
+
+
+
+.resume-degree-time-org, .resume-degree-time {
+   font-size: 1rem !important;
+}
+
+#button {
+   position: relative;
+   bottom: 120px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
